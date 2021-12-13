@@ -24,7 +24,7 @@ class Employee{
 
     public void AddWork(){
         if(noOfHours > 6 ){
-            salary += 5;
+            salary += (noOfHours - 6)*5;
         }
     }
 
